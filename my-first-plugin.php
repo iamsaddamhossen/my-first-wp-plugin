@@ -13,15 +13,14 @@
 * Update URI: https://example.com/my-plugin/
 * Text Domain: mfp
 * Domain Path: /languages
-* Requires Plugins: my-plugin, yet-another-plugin
 */
 
 
 /**
  * Global Variables
  */
-
- $mfp_plugin_name = "My First Plugin";
+$mfp_prefix = "mfp_";
+$mfp_plugin_name = "My First Plugin";
  
 
  /**
@@ -30,3 +29,4 @@
 
  include('includes/scripts.php'); // this controls all JS/CSS
  include('includes/data-processing.php'); // this controls all saving of data 
+ include('includes/display-functions.php'); // display content functions
