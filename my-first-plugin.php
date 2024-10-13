@@ -21,6 +21,9 @@
  */
 $mfp_prefix = "mfp_";
 $mfp_plugin_name = "My First Plugin";
+
+// retrieve our plugin settings from the options table
+$mfp_options = get_option('mfp_settings');
  
 
  /**
@@ -30,3 +33,4 @@ $mfp_plugin_name = "My First Plugin";
  include('includes/scripts.php'); // this controls all JS/CSS
  include('includes/data-processing.php'); // this controls all saving of data 
  include('includes/display-functions.php'); // display content functions
+ include('includes/admin-page.php'); // the plugin options pages HTML
