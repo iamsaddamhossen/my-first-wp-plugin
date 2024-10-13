@@ -1,0 +1,32 @@
+<?php
+/*
+* Plugin Name: My First Plugin
+* Plugin URI: https://saddam.dev/
+* Description: This is my first plugin.
+* Version: 1.0.0
+* Requires at least: 5.2
+* Requires PHP: 7.2
+* Author: Saddam Hossen
+* Author URI: https://saddam.dev/
+* License: GPL v2 or later
+* License URI: https://www.gnu.org/licenses/gpl-2.0.html
+* Update URI: https://example.com/my-plugin/
+* Text Domain: mfp
+* Domain Path: /languages
+* Requires Plugins: my-plugin, yet-another-plugin
+*/
+
+
+/**
+ * Global Variables
+ */
+
+ $mfp_plugin_name = "My First Plugin";
+ 
+
+ /**
+ * Includes
+ */
+
+ include('includes/scripts.php'); // this controls all JS/CSS
+ include('includes/data-processing.php'); // this controls all saving of data 

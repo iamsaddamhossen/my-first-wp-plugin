@@ -1,0 +1,7 @@
+<?php
+
+/**
+ * Scripts Control
+ */
+
+ 
