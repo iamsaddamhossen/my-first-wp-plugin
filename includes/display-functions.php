@@ -8,7 +8,7 @@
   
      global $mfp_options;
   
-     if(is_singular() && $mfp_options['enable'] == true) {
+     if(is_singular()) {
          $extra_content = '<p class="twitter-message">Follow me on <a href="' . $mfp_options['twitter_url'] . '">Twitter</a></p>';
          $content .= $extra_content;
      }
